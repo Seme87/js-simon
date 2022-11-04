@@ -18,4 +18,11 @@ for(i=1; i <= 5; i++){
         listNumbers.push(numRandom)
     }
 }
+// APPENDO IL CONTENTUTO DELLA LISTA NEL CONTENITORE SUL DOM
 listContainer.append(listNumbers);
+
+setTimeout(myFunction, 3000);
+
+function myFunction(){
+    listContainer.classList.add('.display')
+}
