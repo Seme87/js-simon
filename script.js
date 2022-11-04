@@ -24,5 +24,13 @@ listContainer.append(listNumbers);
 setTimeout(myFunction, 3000);
 
 function myFunction(){
-    listContainer.classList.add('.display')
+    listContainer.classList.add('display');
+    
 }
+
+se
+let numberuser=prompt('inserisci il numero visualizzato prima nella lista')
+
+    for(i= 1; i <= 5; i++) {
+       Number(numberuser);
+    }
