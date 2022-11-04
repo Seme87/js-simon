@@ -35,7 +35,7 @@ function myFunction(){
 
 
 //DICHIARO UNA FUNZIONE CHE FA' COMPARIRE I PROMPT  DOPO 31 SEC
-setTimeout(myFunction2, 3100);
+setTimeout(myFunction2, 3500);
 
 //CREO UN ARRAY PER I NUMERI SCELTI DALL'UTENTE ATTRAVERSO I PROMPT
 let listNumberUser=[];
@@ -58,7 +58,7 @@ setTimeout(myFunction3, 3200);
 
     function myFunction3(){
 
-    if( listNumbers.includes(num)){
+    if( listNumbers===listNumberUser){
         alert('hai Vinto')
     }else{
         alert('Hai Perso')
