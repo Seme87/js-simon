@@ -58,7 +58,7 @@ setTimeout(myFunction3, 3200);
 
     function myFunction3(){
 
-    if(listNumberUser.includes(num) === listNumbers.includes(numRandom)){
+    if( listNumbers.includes(num)){
         alert('hai Vinto')
     }else{
         alert('Hai Perso')
