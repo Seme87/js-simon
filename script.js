@@ -21,6 +21,10 @@ for(i=1; i <= 5; i++){
 // APPENDO IL CONTENTUTO DELLA LISTA NEL CONTENITORE SUL DOM
 listContainer.append(listNumbers);
 
+
+
+
+//DICHIARO UNA FUNZIONE CHE AGGIUNGE LA CLASSE DISPLAY DOPO 30 SEC
 setTimeout(myFunction, 3000);
 
 function myFunction(){
@@ -28,9 +32,21 @@ function myFunction(){
     
 }
 
-se
-let numberuser=prompt('inserisci il numero visualizzato prima nella lista')
+
+//DICHIARO UNA FUNZIONE CHE FA' COMPARIRE I PROMPT  DOPO 31 SEC
+setTimeout(myFunction2, 3100);
+
+let listNumberUser=[];
+console.log(listNumberUser);
+function myFunction2(){
 
     for(i= 1; i <= 5; i++) {
-       Number(numberuser);
-    }
+    let numberUserComvert=prompt('inserisci il numero visualizzato prima nella lista')
+    let num= Number(numberUserComvert);
+    listNumberUser.push(num);
+}
+    
+}
+
+
+
