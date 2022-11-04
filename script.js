@@ -27,6 +27,7 @@ listContainer.append(listNumbers);
 //DICHIARO UNA FUNZIONE CHE AGGIUNGE LA CLASSE DISPLAY DOPO 30 SEC
 setTimeout(myFunction, 3000);
 
+//INVOCOUNA FUNZIONE CHE AGGIUNGE LA CLASSE DISPLAY DOPO 30 SEC
 function myFunction(){
     listContainer.classList.add('display');
     
@@ -36,8 +37,11 @@ function myFunction(){
 //DICHIARO UNA FUNZIONE CHE FA' COMPARIRE I PROMPT  DOPO 31 SEC
 setTimeout(myFunction2, 3100);
 
+//CREO UN ARRAY PER I NUMERI SCELTI DALL'UTENTE ATTRAVERSO I PROMPT
 let listNumberUser=[];
 console.log(listNumberUser);
+
+//INVOCO LA FUNZIONE CHE FA' COMPARIRE I PROMPT  DOPO 31 SEC
 function myFunction2(){
 
     for(i= 1; i <= 5; i++) {
@@ -47,6 +51,22 @@ function myFunction2(){
 }
     
 }
+
+
+//DICHIARO UNA FUNZIONE CHE STAMPA ATTRAVERSO UN ALERT IL RISULTATO
+setTimeout(myFunction3, 3200);
+
+    function myFunction3(){
+
+    if(listNumberUser.includes(num) === listNumbers.includes(numRandom)){
+        alert('hai Vinto')
+    }else{
+        alert('Hai Perso')
+    }
+
+}
+
+
 
 
 
